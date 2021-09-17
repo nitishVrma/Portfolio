@@ -10,8 +10,6 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     <a href="#intro" className="logo">NKV</a>
                     <div className="itemContainer">
                     
-                        {/* <Person className="icon"></Person> */}
-                        {/* <span>+342 2234 234</span> */}
                     </div>
                     
                     <div className="itemContainer">
@@ -20,11 +18,11 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     </div>
                     <div className="itemContainer">
                     <LinkedIn/>
-                    <span>linkdin</span>
+                    <a href="linkedin.com/in/nitishkrvrma"><span>linkdin</span></a>
                     </div>
                     <div className="itemContainer">
                     <GitHub/>
-                    <span>Github</span>
+                    <a href="https://github.com/nitishVrma"><span>Github</span></a>
                     
                     </div>
                 </div>

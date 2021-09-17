@@ -14,7 +14,7 @@ const About = () => {
                 <div className="aboutRight">
                     <h1 style={{ color: "#c5c6c7"}}>I'm Nitish, a <span style={{ color: "#66fcf1"}}>Full Stack Web Developer</span></h1>
                     <br />
-                    <p>A passionate Developer, with strong administrative and communication skills, good attention to detail and with the ability to write efficient code using MERN Stack.</p>
+                    <p>A passionate Developer, with strong problem solving skills, good attention to detail and with the ability to write efficient code using MERN Stack.</p>
                     <br />
 
                     <p>I have been developing Web Apps for over 7 months now. Well versed in coding using Javascript and its frameworks.</p>
