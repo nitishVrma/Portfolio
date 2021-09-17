@@ -6,6 +6,7 @@ import Topbar from "./components/topbar/Topbar";
   import { useState } from "react";
   import Menu from "./components/menu/Menu";
   import About from "./components/about/About";
+  import Skills from "./components/skills/Skills";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Intro></Intro>
       <About></About>
       <Works></Works>
+      <Skills></Skills>
       <Contact></Contact>
       </div>
     </div>
