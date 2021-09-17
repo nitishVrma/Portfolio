@@ -1,6 +1,8 @@
 .intro {
-  background-color: #d7eefc;
+  background-color: #1f2833;
   display: flex;
+  color: #66fcf1;
+  color: #c5c6c7;
 
   .left {
     flex: 0.5;
@@ -18,7 +20,9 @@
       float: right;
 
       img {
-        height: 90%;
+        height: 100%;
+        margin-left: 90px;
+        margin-right: -75px;
       }
     }
   }
@@ -43,6 +47,26 @@
       }
       h3 {
         font-size: 30px;
+
+        span {
+          font-size: 30px;
+          color: #66fcf1;
+        }
+      }
+    }
+    a {
+      position: absolute;
+      bottom: 10px;
+      left: 40%;
+
+      img {
+        width: 30px;
+        animation: arrowBlink 2s infinite;
+      }
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
+        }
       }
     }
   }
