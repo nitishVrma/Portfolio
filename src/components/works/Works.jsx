@@ -10,7 +10,7 @@ export default function Works() {
           icon: "hotelL.png",
           linkSite: "https://hotelsclone.netlify.app",
           linkGithub: "https://github.com/abhishekmah/Project-Hotels.com",
-          linkBlog: "comingsoon",
+          linkBlog: "https://medium.com/@nitishverma2371997/hotels-com-cloned-1af8b4fe8771",
           title: "Hotels.com",
           desc:
             "Hotels.com is a leading provider of hotel accommodation worldwide, offering booking services through localized websites.",
@@ -20,12 +20,12 @@ export default function Works() {
         {
           id: "2",
           icon: "angelL.png",
-          linkSite: "https://projectangel.netlify.app",
-          linkGithub: "https://github.com/vshubhams/project-angel",
+          linkSite: "https://shine-clone.herokuapp.com",
+          linkGithub: "https://github.com/Somesh-Kumar-Yadav/Shine-Clone",
           linkBlog: "comingsoon",
-          title: "AngelList",
+          title: "Shine",
           desc:
-            "AngelList is a U.S. website for startups, angel investors, and job-seekers looking to work at startups.",
+            "Shine is a second largest online job portal in India, which bridges the gap between recruiters and job seekers.",
           img:
             "angel.png",
         },
@@ -46,7 +46,7 @@ export default function Works() {
           icon: "hotelL.png",
           linkSite: "https://hotelsclone.netlify.app",
           linkGithub: "https://github.com/abhishekmah/Project-Hotels.com",
-          linkBlog: "comingsoon",
+          linkBlog: "https://medium.com/@nitishverma2371997/hotels-com-cloned-1af8b4fe8771",
           title: "Hotels.com",
           desc:
             "Hotels.com is a leading provider of hotel accommodation worldwide, offering booking services through localized websites.",
@@ -56,12 +56,12 @@ export default function Works() {
         {
           id: "2",
           icon: "angelL.png",
-          linkSite: "https://projectangel.netlify.app",
-          linkGithub: "https://github.com/vshubhams/project-angel",
+          linkSite: "https://shine-clone.herokuapp.com",
+          linkGithub: "https://github.com/Somesh-Kumar-Yadav/Shine-Clone",
           linkBlog: "comingsoon",
-          title: "AngelList",
+          title: "Shine",
           desc:
-            "AngelList is a U.S. website for startups, angel investors, and job-seekers looking to work at startups.",
+            "Shine is a second largest online job portal in India, which bridges the gap between recruiters and job seekers.",
           img:
             "angel.png",
         },
@@ -80,9 +80,9 @@ export default function Works() {
         {
           id: "1",
           icon: "hotelL.png",
-          linkSite: "https://hotelsclone.netlify.app",
+          linkSite: "https://shine-clone.herokuapp.com",
           linkGithub: "https://github.com/abhishekmah/Project-Hotels.com",
-          linkBlog: "comingsoon",
+          linkBlog: "https://medium.com/@nitishverma2371997/hotels-com-cloned-1af8b4fe8771",
           title: "Hotels.com",
           desc:
             "Hotels.com is a leading provider of hotel accommodation worldwide, offering booking services through localized websites.",
@@ -92,12 +92,12 @@ export default function Works() {
         {
           id: "2",
           icon: "angelL.png",
-          linkSite: "https://projectangel.netlify.app",
-          linkGithub: "https://github.com/vshubhams/project-angel",
+          linkSite: "https://shine-clone.herokuapp.com",
+          linkGithub: "https://github.com/Somesh-Kumar-Yadav/Shine-Clone",
           linkBlog: "comingsoon",
-          title: "AngelList",
+          title: "Shine",
           desc:
-            "AngelList is a U.S. website for startups, angel investors, and job-seekers looking to work at startups.",
+            "Shine is a second largest online job portal in India, which bridges the gap between recruiters and job seekers",
           img:
             "angel.png",
         },
