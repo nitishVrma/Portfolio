@@ -18,7 +18,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     </div>
                     <div className="itemContainer">
                     <LinkedIn/>
-                    <a href="linkedin.com/in/nitishkrvrma"><span>linkdin</span></a>
+                    <a href="https://linkedin.com/in/nitishkrvrma"><span>linkdin</span></a>
                     </div>
                     <div className="itemContainer">
                     <GitHub/>
