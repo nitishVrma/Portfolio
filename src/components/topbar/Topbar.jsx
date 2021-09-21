@@ -1,6 +1,6 @@
 import React from 'react'
 import "./topbar.scss"
-import {LinkedIn,Mail,GitHub,Description} from "@material-ui/icons"
+import {LinkedIn,Description} from "@material-ui/icons"
 
 export default function Topbar({menuOpen, setMenuOpen}) {
     return (
