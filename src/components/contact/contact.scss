@@ -7,6 +7,7 @@
   .left {
     flex: 1;
     overflow: hidden;
+    // border: 1px solid red;
 
     img {
       height: 50%;
@@ -17,15 +18,54 @@
     .links {
       margin-left: 140px;
       display: flex;
+      height: 100px;
+      // border: 1px solid red;
+      vertical-align: middle;
       margin-top: 60px;
+      justify-content: space-between;
+      margin-right: 50px;
 
       div {
-        margin-left: 60px;
         color: white;
+        transition: all 0.3s ease;
+        padding: auto;
+
+        a {
+          color: inherit;
+          transition: all 0.1s ease;
+
+          * {
+            transition: all 0.3s ease;
+            &:hover {
+              font-size: 65px;
+              #linkedin {
+                color: #0a66c2;
+              }
+            }
+          }
+        }
+        // border: 1px solid red;
 
         * {
-          color: white;
           font-size: 45px;
+        }
+
+        &:hover {
+          #linkedin {
+            color: #0a66c2;
+          }
+          #mail {
+            color: #e34034;
+          }
+          #git {
+            color: #ee9105;
+          }
+          #phone {
+            color: #028600;
+          }
+          #twitter {
+            color: #1a8cd8;
+          }
         }
       }
     }

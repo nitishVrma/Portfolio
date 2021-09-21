@@ -14,11 +14,11 @@ export default function Contact() {
       <div className="left">
         <img src="assets/shake.svg" alt="" />
         <div className="links">
-        <div className="linkedin"><a href="https://linkedin.com/in/nitishkrvrma"><LinkedIn style={{color : "blue"}}></LinkedIn></a></div>
-        <div className="mail"><a href="mailto: nitish.kvrma@gmail.com"><MailOutline/></a></div>
-        <div className="git"><a href="https://github.com/nitishVrma"><GitHub></GitHub></a></div>
-        <div className="twitter"><a href="https://twitter.com/nkvorion"><Twitter></Twitter></a></div>
-        <div className="twitter"><a href="tel:7860379662"><LocalPhone></LocalPhone></a></div>
+        <div ><a id="linkedin" href="https://linkedin.com/in/nitishkrvrma"><LinkedIn  ></LinkedIn></a></div>
+        <div ><a id="mail" href="mailto: nitish.kvrma@gmail.com"><MailOutline  /></a></div>
+        <div ><a id="git" href="https://github.com/nitishVrma"><GitHub ></GitHub></a></div>
+        <div ><a id="twitter" href="https://twitter.com/nkvorion"><Twitter  ></Twitter></a></div>
+        <div><a id="phone" href="tel:7860379662"><LocalPhone  ></LocalPhone></a></div>
         </div>
       </div>
       <div className="right">
