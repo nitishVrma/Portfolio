@@ -10,7 +10,7 @@ export default function Works() {
           icon: "hotelL.png",
           linkSite: "https://hotelsclone.netlify.app",
           linkGithub: "https://github.com/abhishekmah/Project-Hotels.com",
-          linkBlog: "https://medium.com/@nitishverma2371997/hotels-com-cloned-1af8b4fe8771",
+          linkBlog: "https://hotelsclone.netlify.app",
           title: "Hotels.com",
           desc:
             "Hotels.com is a leading provider of hotel accommodation worldwide, offering booking services through localized websites.",
@@ -22,7 +22,7 @@ export default function Works() {
           icon: "angelL.png",
           linkSite: "https://shine-clone.herokuapp.com",
           linkGithub: "https://github.com/Somesh-Kumar-Yadav/Shine-Clone",
-          linkBlog: "comingsoon",
+          linkBlog: "https://shine-clone.herokuapp.com",
           title: "Shine",
           desc:
             "Shine is a second largest online job portal in India, which bridges the gap between recruiters and job seekers.",
@@ -34,7 +34,7 @@ export default function Works() {
           icon: "myglamm-logo.png",
           linkSite: "https://myglammclone.netlify.app",
           linkGithub: "https://github.com/tauseef-stack/myGlamm",
-          linkBlog: "comingsoon",
+          linkBlog: "https://myglammclone.netlify.app",
           title: "My Glamm",
           desc:
             "MyGlamm is a direct-to-consumer beauty brand that offers an online beauty products marketplace.",
@@ -46,7 +46,7 @@ export default function Works() {
           icon: "hotelL.png",
           linkSite: "https://hotelsclone.netlify.app",
           linkGithub: "https://github.com/abhishekmah/Project-Hotels.com",
-          linkBlog: "https://medium.com/@nitishverma2371997/hotels-com-cloned-1af8b4fe8771",
+          linkBlog: "https://hotelsclone.netlify.app/",
           title: "Hotels.com",
           desc:
             "Hotels.com is a leading provider of hotel accommodation worldwide, offering booking services through localized websites.",
@@ -58,7 +58,7 @@ export default function Works() {
           icon: "angelL.png",
           linkSite: "https://shine-clone.herokuapp.com",
           linkGithub: "https://github.com/Somesh-Kumar-Yadav/Shine-Clone",
-          linkBlog: "comingsoon",
+          linkBlog: "https://shine-clone.herokuapp.com",
           title: "Shine",
           desc:
             "Shine is a second largest online job portal in India, which bridges the gap between recruiters and job seekers.",
@@ -70,7 +70,7 @@ export default function Works() {
           icon: "myglamm-logo.png",
           linkSite: "https://myglammclone.netlify.app",
           linkGithub: "https://github.com/tauseef-stack/myGlamm",
-          linkBlog: "comingsoon",
+          linkBlog: "https://myglammclone.netlify.app/",
           title: "My Glamm",
           desc:
             "MyGlamm is a direct-to-consumer beauty brand that offers an online beauty products marketplace.",
@@ -82,7 +82,7 @@ export default function Works() {
           icon: "hotelL.png",
           linkSite: "https://shine-clone.herokuapp.com",
           linkGithub: "https://github.com/abhishekmah/Project-Hotels.com",
-          linkBlog: "https://medium.com/@nitishverma2371997/hotels-com-cloned-1af8b4fe8771",
+          linkBlog: "https://hotelsclone.netlify.app/",
           title: "Hotels.com",
           desc:
             "Hotels.com is a leading provider of hotel accommodation worldwide, offering booking services through localized websites.",
@@ -94,7 +94,7 @@ export default function Works() {
           icon: "angelL.png",
           linkSite: "https://shine-clone.herokuapp.com",
           linkGithub: "https://github.com/Somesh-Kumar-Yadav/Shine-Clone",
-          linkBlog: "comingsoon",
+          linkBlog: "https://shine-clone.herokuapp.com",
           title: "Shine",
           desc:
             "Shine is a second largest online job portal in India, which bridges the gap between recruiters and job seekers",
@@ -106,7 +106,7 @@ export default function Works() {
           icon: "myglamm-logo.png",
           linkSite: "https://myglammclone.netlify.app",
           linkGithub: "https://github.com/tauseef-stack/myGlamm",
-          linkBlog: "comingsoon",
+          linkBlog: "https://myglammclone.netlify.app",
           title: "My Glamm",
           desc:
             "MyGlamm is a direct-to-consumer beauty brand that offers an online beauty products marketplace.",
@@ -123,7 +123,7 @@ export default function Works() {
           
           <h1>My Projects</h1>
           <br />
-          <Slider autoplay={true} slidesToShow={2} centerMode={true} autoplayScroll={1} centerPadding={-60} arrows={true}>
+          <Slider autoplay={true} slidesToShow={2} centerMode={false} autoplayScroll={1} centerPadding={-30} arrows={true}>
             {data.map((d) => (
               <div key={uuidv4()} className="container">
                 <div className="item">
@@ -132,13 +132,13 @@ export default function Works() {
                       <div className="imgContainer">
                         <img src={d.icon} alt="" />
                       </div>
-                      <h2 style={{color: "crimson"}}>{d.title}</h2>
+                      <h2 style={{color: "#66fcf1"}}>{d.title}</h2>
                       <p>{d.desc}</p>
                       <div className="button">
                       <a href= {d.linkBlog} target="blank" style=
-                      {{textDecoration: "none", color: "white"}}><button>Blog</button></a>
+                      {{textDecoration: "none", color: "#c5c6c7"}}><button>Site</button></a>
                       <a href= {d.linkGithub} target="blank" style=
-                      {{textDecoration: "none", color: "white"}}><button style={{marginLeft: 10}}>Github</button></a>
+                      {{textDecoration: "none", color: "#c5c6c7"}}><button style={{marginLeft: 10}}>Github</button></a>
                       </div>
                     </div>
                   </div>

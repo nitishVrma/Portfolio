@@ -17,7 +17,7 @@ const About = () => {
                     <p>A passionate Developer, with strong problem solving skills, good attention to detail and with the ability to write efficient code using MERN Stack.</p>
                     <br />
 
-                    <p>I have been developing Web Apps for over 7 months now. Well versed in coding using Javascript and its frameworks.</p>
+                    <p>I have been developing Web Apps for over 7 months now. Well versed in coding using Javascript and Reactjs.</p>
                     <br />
                     <p>As I grow and flourish as a Developer, one thing which keeps me going is my inquisitiveness for discovering new things every day.</p>
                 </div>

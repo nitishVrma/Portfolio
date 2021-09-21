@@ -13,21 +13,18 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     </div>
                     
                     <div className="itemContainer">
-                        <Mail className="icon"></Mail>
-                        <span>nitish.kvrma@gmail.com</span>
+                    <a href="https://linkedin.com/in/nitishkrvrma">
+                    <LinkedIn/><span>linkedin</span></a>
                     </div>
-                    <div className="itemContainer">
-                    <LinkedIn/>
-                    <a href="https://linkedin.com/in/nitishkrvrma"><span>linkdin</span></a>
-                    </div>
-                    <div className="itemContainer">
+                    {/* <div className="itemContainer">
                     <GitHub/>
                     <a href="https://github.com/nitishVrma"><span>Github</span></a>
                     
-                    </div>
+                    </div> */}
                     <div className="itemContainer">
+                    <a href="https://drive.google.com/file/d/1QYv5f9q4F68-X4SWX--c67kwy-qX9hB9/view?usp=sharing">
                     <Description/>
-                     <a href="https://drive.google.com/file/d/1QYv5f9q4F68-X4SWX--c67kwy-qX9hB9/view?usp=sharing"><span>Resume</span></a>
+                     <span>Resume</span></a>
                     </div>
                 </div>
                 <div className="right">
