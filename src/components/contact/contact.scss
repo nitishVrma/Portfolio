@@ -9,9 +9,25 @@
     overflow: hidden;
 
     img {
-      height: 40%;
-      width: 60%;
-      margin-left: 70px;
+      height: 50%;
+      width: 63%;
+      margin-left: 190px;
+      margin-top: 110px;
+    }
+    .links {
+      margin-left: 140px;
+      display: flex;
+      margin-top: 60px;
+
+      div {
+        margin-left: 60px;
+        color: white;
+
+        * {
+          color: white;
+          font-size: 45px;
+        }
+      }
     }
   }
   .right {
@@ -35,15 +51,19 @@
       justify-content: space-around;
 
       input {
-        width: 300px;
+        width: 290px;
         height: 30px;
         font-size: 14px;
+        padding-left: 10px;
+        border-radius: 10px;
       }
 
       textarea {
-        width: 300px;
-        height: 200px;
+        width: 280px;
+        height: 180px;
         font-size: 14px;
+        padding: 10px;
+        border-radius: 10px;
       }
 
       button {

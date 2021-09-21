@@ -97,7 +97,7 @@ export default function Works() {
           linkBlog: "https://shine-clone.herokuapp.com",
           title: "Shine",
           desc:
-            "Shine is a second largest online job portal in India, which bridges the gap between recruiters and job seekers",
+            "Shine is a second largest online job portal in India, which bridges the gap between recruiters and job seekers.",
           img:
             "angel.png",
         },
