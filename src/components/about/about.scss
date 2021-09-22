@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .about {
   width: 90%;
   background-color: #1f2833;
@@ -23,6 +25,10 @@
   overflow: hidden;
   color: #c5c6c7;
   justify-content: space-around;
+
+  @include mobile {
+    align-items: center;
+  }
 
   @media (max-width: 760px) {
     flex-direction: column;
@@ -61,6 +67,10 @@
   width: 50%;
   color: #c5c6c7;
 
+  @include mobile {
+    text-align: center;
+  }
+
   @media (max-width: 760px) {
     width: 90%;
     margin: auto;
@@ -81,6 +91,9 @@
 }
 .aboutRight > p {
   font-size: 20px;
+  @include mobile {
+    text-align: center;
+  }
 
   @media (max-width: 760px) {
     font-size: 16px;

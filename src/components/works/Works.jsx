@@ -123,7 +123,7 @@ export default function Works() {
           
           <h1>My Projects</h1>
           <br />
-          <Slider autoplay={true} slidesToShow={2} centerMode={false} autoplayScroll={1} centerPadding={-30} arrows={true}>
+          <Slider autoplay={true} slidesToShow={2} centerMode={true} autoplayScroll={1} centerPadding={-60} arrows={true}>
             {data.map((d) => (
               <div key={uuidv4()} className="container">
                 <div className="item">
