@@ -23,7 +23,7 @@
       margin-top: 110px;
 
       @include mobile {
-        margin-top: 50px;
+        margin-top: 40px;
         // margin-left: 90px;
       }
     }
@@ -38,8 +38,9 @@
       margin-top: 60px;
       justify-content: space-between;
       margin-right: 50px;
+
       @include mobile {
-        margin-top: 50px;
+        margin-top: 30px;
         margin-left: 40px;
         margin-top: 30px;
         // margin-left: 90px;
@@ -120,10 +121,14 @@
 
       textarea {
         width: 280px;
-        height: 180px;
+        height: 120px;
         font-size: 14px;
         padding: 10px;
         border-radius: 10px;
+
+        @include mobile {
+          margin-top: 10px;
+        }
       }
 
       button {
@@ -135,6 +140,10 @@
         border-radius: 10px;
         font-weight: 500;
         cursor: pointer;
+
+        @include mobile {
+          margin-top: 20px;
+        }
 
         &:focus {
           outline: none;
