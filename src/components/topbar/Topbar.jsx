@@ -18,7 +18,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     
                     </div> */}
                     <div className="itemContainer">
-                    <a href="https://drive.google.com/file/d/1QYv5f9q4F68-X4SWX--c67kwy-qX9hB9/view?usp=sharing">
+                    <a href="https://drive.google.com/drive/folders/1HhXt8Fc-p9noSnlXOKO_wHeKXZpj0Ldu?usp=sharing">
                     <Description/>
                      <span>Resume</span></a>
                     </div>

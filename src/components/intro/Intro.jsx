@@ -29,7 +29,7 @@ export default function Intro() {
                     <h1>Nitish Verma</h1>
                     
                     <h3><span ref = {textRef}></span></h3>
-                    <a href="https://drive.google.com/file/d/1QYv5f9q4F68-X4SWX--c67kwy-qX9hB9/view?usp=sharing"><button>Resume</button></a>
+                    <a href="https://drive.google.com/file/d/1ZPU0g5MbdMyC6xrLVPSmmWjVOgA7BNRf/view?usp=sharing"><button>Resume</button></a>
                     
                 </div>
                 
